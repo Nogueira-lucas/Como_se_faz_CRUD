@@ -14,7 +14,7 @@ Recomendo:
 > Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
 
 ## 2. Escolha um SGBD relacional de sua preferencia (Sistema gerenciador de banco de dados)
-- PostgreSQl
+- PostgreSQL
 - MySQL
 - Access
 - SQL Server
