@@ -245,7 +245,8 @@ Segue uma lista carinhosamente recomendada por mim de um material super bacana p
 ## MATERIAL COMPLEMENTAR
 
 ### Aprenda Orientação a Objetos, CURSO EM VIDEO. 
-<https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY>
+
+- CURSO EM VIDEO <https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY>
 
 ### Aprenda o que são classes de domínio.
 	
