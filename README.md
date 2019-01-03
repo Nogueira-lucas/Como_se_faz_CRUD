@@ -32,32 +32,32 @@ Procure na documentação exatamente essas funções:
 ## 4. Crie seu modelo relacional do banco de dados (crie suas tabelas)
   
 ## 5. Crie sua fábrica de conexão
+    
+    public class FabricaConexao {
+    
+	    private static final String DRIVER  = "org.postgresql.Driver";
+	    private static final String URL     = "jdbc:postgresql://localhost:5432/db_teste";
+	    private static final String USER    = "postgres";
+	    private static final String PASS    = "1234";
 
-public class FabricaConexao {
-    
-    private static final String DRIVER  = "org.postgresql.Driver";
-    private static final String URL     = "jdbc:postgresql://localhost:5432/db_teste";
-    private static final String USER    = "postgres";
-    private static final String PASS    = "1234";
-            
-    public static Connection getConexao(){
-        
-        try {
-            Class.forName(DRIVER);
-            return DriverManager.getConnection(URL, USER, PASS);
-        } catch (ClassNotFoundException | SQLException e){
-            throw new RuntimeException("Erro de conexão", e);
-        }
-    }
-    
-    public static void fecharConexao(Connection conn){
-        if(conn != null){    
-            try {
-                conn.close();
-            } catch (SQLException ex) {
-                System.err.println("Erro ao fechar conexao"+ex.getMessage());
-            }
-        }
+	    public static Connection getConexao(){
+
+		try {
+		    Class.forName(DRIVER);
+		    return DriverManager.getConnection(URL, USER, PASS);
+		} catch (ClassNotFoundException | SQLException e){
+		    throw new RuntimeException("Erro de conexão", e);
+		}
+	    }
+
+	    public static void fecharConexao(Connection conn){
+		if(conn != null){    
+		    try {
+			conn.close();
+		    } catch (SQLException ex) {
+			System.err.println("Erro ao fechar conexao"+ex.getMessage());
+		    }
+	    }
     }
 
 ## 6. Crie suas classes de domínio
