@@ -1,4 +1,4 @@
-# How_to_make_a_CRUD
+# Como se faz um CRUD - LUCAS NOGUEIRA, 2019.
 
 ### Essa é a minha exposição de aprendizado que gostaria de compartilhar em forma de etapas.
 
@@ -277,5 +277,5 @@ Segue uma lista carinhosamente recomendada por mim de um material super bacana p
 - Descompila: <https://www.youtube.com/watch?v=x40DQ5TyCEY> - JUnit
 - Dmitry Skibitsky: <https://www.youtube.com/watch?v=1RL9ZvhD17k> - PHPUnit
 
-
+LUCAS NOGUEIRA, 2019.
  
