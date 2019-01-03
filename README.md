@@ -9,7 +9,7 @@
 	- JAVA
 	- PHP
 		
-*Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
+> Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
 
 2ª) Escolha um SGBD relacional de sua preferencia (Sistema gerenciador de banco de dados)
 	- PostgreSQl
@@ -23,11 +23,11 @@
 
 Procure na documentação exatamente essas funções:
 
-* Como conectar-se ao banco de dados;
-* Como fechar conexao;
-* Como acionar comandos SQL com a linguagem; (criação, alteração, exclusão e visualização);
+- Como conectar-se ao banco de dados;
+- Como fechar conexao;
+- Como acionar comandos SQL com a linguagem; (criação, alteração, exclusão e visualização);
 
-*Dica: caso a documentação esteja confusa demais procure em foruns, video-aulas ou pergunte a um colega da comunidade de sua preferencia.	
+> Dica: caso a documentação esteja confusa demais procure em foruns, video-aulas ou pergunte a um colega da comunidade de sua preferencia.	
 
 4º) Crie seu modelo relacional do banco de dados (crie suas tabelas)
   
@@ -37,17 +37,17 @@ Procure na documentação exatamente essas funções:
 
 7º) Crie as classes DAO a partir das classes de dominio:
 
-	Dica: se você está nos primeiros passos tente com apenas uma unica entidade de dominio e uma unica entidade relacional para ficar mais facil de aprender.
+> Dica: se você está nos primeiros passos tente com apenas uma unica entidade de dominio e uma unica entidade relacional para ficar mais facil de aprender.
 
 8º) Se você estiver trabalhando com interface gráfica lembre-se que você pode envolver Orientação a Eventos então procure separar o que é interface gráfica das classes de dominio para ficar mais fácil de focar sua lógica de programação.
 
-	Obs.: pensei dessa forma já que o nível lógico de acionar comandos sql entre tratar dados do formulario são duas coisas completamente diferentes. Acredito que existe uma relação muito forte com as interfaces gráficas(janelinhas) e os eventos como 'clicar', 'carregar nova janela'...
+> Obs.: pensei dessa forma já que o nível lógico de acionar comandos sql entre tratar dados do formulario são duas coisas completamente diferentes. Acredito que existe uma relação muito forte com as interfaces gráficas(janelinhas) e os eventos como 'clicar', 'carregar nova janela'...
 
 9º) Crie uma rotina de testes para executar classes DAO
 	
 Isso ajuda você a comprender seu código com mais rapidez e realizar testes em poucos segundos. Deixando de lado o "teste1", "teste2" na sua base de dados e te premiando com mais tempo para focar no seu aprendizado.
 
-	Obs.: É importante já ficar sabendo que é possivel testar seu código com auxílio de frameworks de teste unitários;
+> Obs.: É importante já ficar sabendo que é possivel testar seu código com auxílio de frameworks de teste unitários;
 
 > Ok, talvez você não conheça todas as ferramentas e técnicas que eu citei. 
 
