@@ -4,14 +4,14 @@
 
 # PASSOS PARA APRENDER A DESENVOLVER CRUD EM QUALQUER LINGUAGEM DE PROGRAMAÇÃO
 
-1º) Escolha sua linguagem Back-end:
+## 1. Escolha sua linguagem Back-end:
 	Recomendo:	
 	- JAVA
 	- PHP
 		
 > Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
 
-2ª) Escolha um SGBD relacional de sua preferencia (Sistema gerenciador de banco de dados)
+## 2. Escolha um SGBD relacional de sua preferencia (Sistema gerenciador de banco de dados)
 	- PostgreSQl
 	- MySQL
 	- Access
@@ -19,7 +19,7 @@
 	- Oracle Database
 	- MariaDB
 
-3º) Encontre o driver de conexão entre o banco de dados e aplicação:
+## 3. Encontre o driver de conexão entre o banco de dados e aplicação:
 
 Procure na documentação exatamente essas funções:
 
@@ -29,21 +29,21 @@ Procure na documentação exatamente essas funções:
 
 > Dica: caso a documentação esteja confusa demais procure em foruns, video-aulas ou pergunte a um colega da comunidade de sua preferencia.	
 
-4º) Crie seu modelo relacional do banco de dados (crie suas tabelas)
+## 4. Crie seu modelo relacional do banco de dados (crie suas tabelas)
   
-5º) Crie sua fábrica de conexão
+## 5. Crie sua fábrica de conexão
 	
-6º) Crie suas classes de domínio
+## 6. Crie suas classes de domínio
 
-7º) Crie as classes DAO a partir das classes de dominio:
+## 7. Crie as classes DAO a partir das classes de dominio:
 
 > Dica: se você está nos primeiros passos tente com apenas uma unica entidade de dominio e uma unica entidade relacional para ficar mais facil de aprender.
 
-8º) Se você estiver trabalhando com interface gráfica lembre-se que você pode envolver Orientação a Eventos então procure separar o que é interface gráfica das classes de dominio para ficar mais fácil de focar sua lógica de programação.
+## 8. Se você estiver trabalhando com interface gráfica lembre-se que você pode envolver Orientação a Eventos então procure separar o que é interface gráfica das classes de dominio para ficar mais fácil de focar sua lógica de programação.
 
 > Obs.: pensei dessa forma já que o nível lógico de acionar comandos sql entre tratar dados do formulario são duas coisas completamente diferentes. Acredito que existe uma relação muito forte com as interfaces gráficas(janelinhas) e os eventos como 'clicar', 'carregar nova janela'...
 
-9º) Crie uma rotina de testes para executar classes DAO
+## 9. Crie uma rotina de testes para executar classes DAO
 	
 Isso ajuda você a comprender seu código com mais rapidez e realizar testes em poucos segundos. Deixando de lado o "teste1", "teste2" na sua base de dados e te premiando com mais tempo para focar no seu aprendizado.
 
@@ -78,7 +78,7 @@ Segue uma lista carinhosamente recomendada por mim de um material super bacana p
 ### Aprenda o  que é o Desing Pattern DAO e como usar.
 
 - Tutorials Point: <https://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm>
-- Aprenda o que é o padrão MVC e como usar.
+### Aprenda o que é o padrão MVC e como usar.
 - Tableless : <https://tableless.com.br/mvc-afinal-e-o-que/>
 
 ### Aprenda o que é a metodologia ágil TDD e como usar frameworks de testes.
