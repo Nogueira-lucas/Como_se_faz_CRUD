@@ -4,6 +4,8 @@
 
 # PASSOS PARA APRENDER A DESENVOLVER CRUD EM QUALQUER LINGUAGEM DE PROGRAMAÇÃO
 
+Decidi estruturar meu manual em etapas com alguns exemplos de código para facilitar a imersão.
+
 ## 1. Escolha sua linguagem Back-end:
 Recomendo:	
 - JAVA
