@@ -5,19 +5,19 @@
 # PASSOS PARA APRENDER A DESENVOLVER CRUD EM QUALQUER LINGUAGEM DE PROGRAMAÇÃO
 
 ## 1. Escolha sua linguagem Back-end:
-	Recomendo:	
-	- JAVA
-	- PHP
-		
+Recomendo:	
+- JAVA
+- PHP
+
 > Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
 
 ## 2. Escolha um SGBD relacional de sua preferencia (Sistema gerenciador de banco de dados)
-	- PostgreSQl
-	- MySQL
-	- Access
-	- SQL Server
-	- Oracle Database
-	- MariaDB
+- PostgreSQl
+- MySQL
+- Access
+- SQL Server
+- Oracle Database
+- MariaDB
 
 ## 3. Encontre o driver de conexão entre o banco de dados e aplicação:
 
