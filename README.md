@@ -10,6 +10,7 @@ Decidi estruturar meu manual em etapas com alguns exemplos de código para facil
 Recomendo:	
 - JAVA
 - PHP
+- NodeJS
 
 > Obs.: é muito bom possuir uma noção de Orientação a Objetos. Caso não tenha ainda, recomendo muito as aulas do professor Guanabara (Segue o link abaixo)
 
